@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SilverSky Studio - Official Website" />
+  <title>SilverSky Studio - Official Website</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="background-elements" id="stars-container"></div>
+
+  <header>
+    <div class="header-content">
+      <div class="logo"><h1>SilverSky Studio</h1></div>
+      <nav>
+        <ul>
+          <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+          <li><a href="#" class="nav-link" data-page="about">About Me</a></li>
+          <li><a href="#" class="nav-link" data-page="games">Games</a></li>
+          <li><a href="#" class="nav-link" data-page="support">Support Me</a></li>
+          <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="page-section active">
+      <div class="hero">
+        <h2>SilverSky Studio</h2>
+        <a href="#" class="btn nav-link" data-page="games">Discover My Projects</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="page-section">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="bio">
+          <p>
+            I am an independent game developer, and under the name <strong>SilverSky Studio</strong>, I strive to create experiences that resonate deeply with players. My projects explore themes such as identity, loss, trauma, and new opportunities, inviting players to question their own morals and ethics through interactive storytelling.
+          </p>
+          <p>
+            My main focus is on visual novels and narrative-driven projects with visual elements, where each project is born from an aspect of the human mind and transformed into a space where players can feel, reflect, and fully immerse themselves in the experience. My goal with every project is to leave a lasting emotional impact.
+          </p>
+        </div>
+        <div class="skills">
+          <h3>What I do</h3>
+          <ul>
+            <li>Narrative design and scriptwriting</li>
+            <li>Artistic design of characters, environments, and settings</li>
+            <li>Programming in Ren'Py</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- GAMES -->
+    <section id="games" class="page-section">
+      <h2>Games</h2>
+      <div class="game-gallery">
+        <div class="game-card">
+          <img src="Portada_BajolasRosas.png" alt="Bajo las Rosas" style="height:200px; width:100%; object-fit:cover;" />
+          <div class="game-card-content">
+            <h3>Bajo las Rosas</h3>
+            <p>
+              A romantic yandere-style visual novel that explores identity, existence, the search for meaning, and the complexities of love.
+            </p>
+            <a href="https://silversky-studio.itch.io/bajo-las-rosas" class="btn" target="_blank" rel="noopener">Download it on Itch.io</a>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <div class="placeholder-image" style="background:linear-gradient(135deg,#F7E8A4,#E8A72F);height:200px;display:flex;align-items:center;justify-content:center;color:var(--color-light);">
+          </div>
+          <div class="game-card-content">
+            <h3>Project M</h3>
+            <p>A new visual novel in development that explores life, death, identity, and pain.</p>
+            <a href="#project-m-details" class="btn">See More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT M DETAILS -->
+    <section id="project-m-details" class="page-section" style="
+      margin-top:50px;
+      padding:40px;
+      background-color:var(--color-secondary);
+      border-left:5px solid var(--color-gold);
+      border-radius:var(--border-radius);
+      box-shadow:0 10px 20px rgba(0,0,0,0.3);
+      color:var(--color-light);
+      max-width:800px;
+      margin-left:auto;
+      margin-right:auto;
+      transition:var(--transition);
+    ">
+      <h2 style="text-align:center; font-size:2rem; margin-bottom:20px; color:var(--color-gold);">
+        Project M
+      </h2>
+      <p style="font-size:1.1rem; line-height:1.6;">
+        <strong>☀️ Tentative Synopsis:</strong> You and Mehri wake up in an empty station and board a train that seems to have no destination. As you travel through its carriages and stops, you will uncover fragments of her past, her fears, and the reasons that led Mehri to this moment. The train keeps moving as you accompany her, trying to understand why you are truly there.
+      </p>
+      <p style="font-size:1.1rem; line-height:1.6; margin-top:15px;">
+        <strong>☀️ Tentative Demo Release Date:</strong> August 2026
+      </p>
+    </section>
+
+    <!-- SUPPORT -->
+    <section id="support" class="page-section">
+      <h2>Support Me</h2>
+      <div class="support-content">
+        <div>
+          <p>
+            As an independent developer, your support is essential for me to continue creating and improving my games. There are several ways to collaborate and back my work.
+          </p>
+          <div class="support-options">
+            <div class="support-card">
+              <div class="support-icon">💖</div>
+              <h4>Donations</h4>
+              <p>
+                Direct donations help my games continue to grow, allowing me to improve details, add new features, and develop future projects.
+              </p>
+              <div class="donate-buttons">
+                <a href="https://silversky-studio.itch.io/bajo-las-rosas" class="btn" target="_blank" rel="noopener">Itch.io</a>
+                <a href="https://ko-fi.com/silverskystudio" class="btn" target="_blank" rel="noopener">Ko-fi</a>
+              </div>
+            </div>
+            <div class="support-card">
+              <div class="support-icon">🎁</div>
+              <h4>Memberships</h4>
+              <p>
+                Become a member and support development month by month. Get exclusive content, early access to games, and other special perks.
+              </p>
+              <a href="https://patreon.com/SilverSky_Studio" target="_blank" class="btn">Patreon</a>
+              <a href="https://ko-fi.com/silverskystudio" target="_blank" class="btn">Ko-fi</a>
+            </div>
+            <div class="support-card">
+              <div class="support-icon">📢</div>
+              <h4>Share the Games</h4>
+              <p>
+                Help more people discover the projects: share on social media, recommend to friends, or leave reviews on Itch.io.
+              </p>
+            </div>
+            <div class="support-card">
+              <div class="support-icon">🎨</div>
+              <h4>Creations</h4>
+              <p>
+                Any creations you make—fanart, videos, or other expressions—are a huge source of motivation. Seeing how players enjoy and reinterpret the games provides invaluable support and gives all the effort meaning.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="support-info">
+          <h3>Why Support?</h3>
+          <p>Your contribution allows me to:</p>
+          <ul class="skills">
+            <li>Improve the quality of my games</li>
+            <li>Dedicate more time to the development of each project</li>
+            <li>Continue creating new games in the future</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="page-section">
+      <h2>Contact & Socials</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <p>If you’d like to reach out for collaborations, inquiries, or to hire me for a project, you can contact me directly.</p>
+          <p>You can also follow me and stay updated on my projects through my social media:</p>
+        </div>
+        <div class="contact-list">
+          <a href="mailto:silverskystudio.contact@gmail.com " target="_blank"><span>📧</span>silverskystudio.contact@gmail.com</a>
+          <a href="https://silversky-studio.itch.io" target="_blank"><span>🎮</span> Itch.io</a>
+          <a href="https://www.tiktok.com/@silversky_studio" target="_blank"><span>🎵</span> TikTok</a>
+          <a href="https://youtube.com/@silversky-studio" target="_blank"><span>🔴</span> YouTube</a>
+          <a href="https://silversky-studio.tumblr.com/?source=share" target="_blank"><span>🌸</span> Tumblr</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 SilverSky Studio. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // ⭐ Background stars
+      const starsContainer = document.getElementById('stars-container');
+      for (let i = 0; i < 50; i++) {
+        const star = document.createElement('div');
+        star.classList.add('star');
+        const size = `${Math.random() * 3 + 1}px`;
+        star.style.width = size;
+        star.style.height = size;
+        star.style.left = `${Math.random() * 100}%`;
+        star.style.top = `${Math.random() * 100}%`;
+        star.style.animationDelay = `${Math.random() * 8}s`;
+        starsContainer.appendChild(star);
+      }
+
+      // 🔗 Navigation system
+      const navLinks = document.querySelectorAll('.nav-link');
+      const sections = document.querySelectorAll('.page-section');
+
+      const showPage = (pageId) => {
+        sections.forEach(s => s.classList.remove('active'));
+        document.getElementById(pageId).classList.add('active');
+        navLinks.forEach(l => {
+          l.classList.toggle('active', l.getAttribute('data-page') === pageId);
+        });
+        history.pushState(null, null, `#${pageId}`);
+      };
+
+      navLinks.forEach(link => {
+        link.addEventListener('click', e => {
+          e.preventDefault();
+          showPage(link.getAttribute('data-page'));
+        });
+      });
+
+      window.addEventListener('popstate', () => {
+        const page = window.location.hash.substring(1) || 'home';
+        showPage(page);
+      });
+
+      showPage(window.location.hash.substring(1) || 'home');
+
+      // 🎞️ Scroll animations
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+      document.querySelectorAll('.game-card, .support-card, .skills li').forEach(el => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(20px)';
+        el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+        observer.observe(el);
+      });
+    });
+  </script>
+</body>
+</html>
