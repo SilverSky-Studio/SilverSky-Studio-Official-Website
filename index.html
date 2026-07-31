@@ -7,12 +7,10 @@
   <meta name="description" content="SilverSky Studio - Official Website" />
   <title>SilverSky Studio - Official Website</title>
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
-  <!-- Styles -->
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -28,6 +26,7 @@
           <li><a href="#" class="nav-link" data-page="about">About Me</a></li>
           <li><a href="#" class="nav-link" data-page="games">Games</a></li>
           <li><a href="#" class="nav-link" data-page="support">Support Me</a></li>
+          <li><a href="https://acggoods.com/store/silversky-studio?from=share" class="nav-link external-link" target="_blank" rel="noopener">Merch</a></li>
           <li><a href="#" class="nav-link" data-page="contact">Contact</a></li>
         </ul>
       </nav>
@@ -35,7 +34,6 @@
   </header>
 
   <main>
-    <!-- HOME -->
     <section id="home" class="page-section active">
       <div class="hero">
         <h2>SilverSky Studio</h2>
@@ -43,30 +41,20 @@
       </div>
     </section>
 
-    <!-- ABOUT -->
     <section id="about" class="page-section">
       <h2>About Me</h2>
       <div class="about-content">
         <div class="bio">
           <p>
-            I am an independent game developer, and under the name <strong>SilverSky Studio</strong>, I strive to create experiences that resonate deeply with players. My projects explore themes such as identity, loss, trauma, and new opportunities, inviting players to question their own morals and ethics through interactive storytelling.
+            I am an independent game developer from Colombia. I have always been passionate about creating stories with a strong emotional impact—stories that challenge morality and ethics while exploring complex human experiences and difficult realities.
           </p>
           <p>
-            My main focus is on visual novels and narrative-driven projects with visual elements, where each project is born from an aspect of the human mind and transformed into a space where players can feel, reflect, and fully immerse themselves in the experience. My goal with every project is to leave a lasting emotional impact.
+            Under the name SilverSky Studio, I work to transform these stories into video games that encourage players to reflect and connect with the characters. My goal is to create games that leave a lasting impression and inspire both emotion and reflection.
           </p>
-        </div>
-        <div class="skills">
-          <h3>What I do</h3>
-          <ul>
-            <li>Narrative design and scriptwriting</li>
-            <li>Artistic design of characters, environments, and settings</li>
-            <li>Programming in Ren'Py</li>
-          </ul>
         </div>
       </div>
     </section>
 
-    <!-- GAMES -->
     <section id="games" class="page-section">
       <h2>Games</h2>
       <div class="game-gallery">
@@ -82,43 +70,74 @@
         </div>
 
         <div class="game-card">
-          <div class="placeholder-image" style="background:linear-gradient(135deg,#F7E8A4,#E8A72F);height:200px;display:flex;align-items:center;justify-content:center;color:var(--color-light);">
-          </div>
+          <img src="Portada_ADELPHOBIA.png" alt="ADELPHOBIA" style="height:200px; width:100%; object-fit:cover;" />
           <div class="game-card-content">
-            <h3>Project M</h3>
-            <p>A new visual novel in development that explores life, death, identity, and pain.</p>
-            <a href="#project-m-details" class="btn">See More</a>
+            <h3>ADELPHOBIA</h3>
+            <p>A psychological horror adventure game that explores themes such as trauma, suicide, and the lasting effects of sexual abuse, inspired by real-life stories.</p>
+            <a href="#project-m-details" class="btn nav-link" data-page="project-m-details">See More</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- PROJECT M DETAILS -->
-    <section id="project-m-details" class="page-section" style="
-      margin-top:50px;
-      padding:40px;
-      background-color:var(--color-secondary);
-      border-left:5px solid var(--color-gold);
-      border-radius:var(--border-radius);
-      box-shadow:0 10px 20px rgba(0,0,0,0.3);
-      color:var(--color-light);
-      max-width:800px;
-      margin-left:auto;
-      margin-right:auto;
-      transition:var(--transition);
-    ">
-      <h2 style="text-align:center; font-size:2rem; margin-bottom:20px; color:var(--color-gold);">
-        Project M
-      </h2>
-      <p style="font-size:1.1rem; line-height:1.6;">
-        <strong>☀️ Tentative Synopsis:</strong> You and Mehri wake up in an empty station and board a train that seems to have no destination. As you travel through its carriages and stops, you will uncover fragments of her past, her fears, and the reasons that led Mehri to this moment. The train keeps moving as you accompany her, trying to understand why you are truly there.
-      </p>
-      <p style="font-size:1.1rem; line-height:1.6; margin-top:15px;">
-        <strong>☀️ Tentative Demo Release Date:</strong> August 2026
-      </p>
+    <!-- Rediseño de la sección ADELPHOBIA -->
+    <section id="project-m-details" class="page-section game-showcase">
+      <!-- Banner de portada principal -->
+      <div class="game-banner">
+        <img src="ADELPHOBIA_Banner.png" alt="ADELPHOBIA Key Art" class="banner-img" />
+        <div class="banner-overlay">
+          <span class="status-badge">In Development</span>
+          <p class="tagline">Why would you be afraid of your own brother?</p>
+        </div>
+      </div>
+
+      <!-- Rejilla con información clave y sinopsis -->
+      <div class="game-main-info">
+        <!-- Columna Izquierda: Ficha Técnica -->
+        <aside class="game-spec-sheet">
+          <h3>Project Status</h3>
+          <ul class="spec-list">
+            <li><strong>Genre:</strong> Psychological Horror / Adventure</li>
+            <li><strong>Platform:</strong> PC (Itch.io)</li>
+            <li><strong>Status:</strong> Active Development</li>
+            <li><strong>Target Demo:</strong> 2027</li>
+          </ul>
+
+        </aside>
+
+        <!-- Columna Derecha: Sinopsis y Temática -->
+        <div class="game-description">
+          <h3>Synopsis</h3>
+          <p class="synopsis-text">
+            After learning that her brother miraculously survived a suicide attempt, Mehri is forced to cross the city to visit him and stay by his side in the aftermath of the tragedy. Help her make it there and back safely.
+          </p>
+
+          <!-- Content Warning (Sensibilidad) -->
+          <div class="content-warning">
+            ⚠️ <strong>Content Warning:</strong> This game explores heavy narrative themes, including psychological trauma, suicide, and the lasting impacts of sexual abuse inspired by real-life accounts. Player discretion is advised.
+          </div>
+        </div>
+      </div>
+
+      <!-- Galería de Screenshots / Concept Art & Video -->
+      <div class="game-gallery-section">
+        <h3>Work in Progress / Preview</h3>
+        <div class="preview-grid">
+          <div class="preview-item" data-type="image">
+            <img src="ADELPHOBIA_screenshot_1.png" alt="ADELPHOBIA Preview 1" />
+          </div>
+          <div class="preview-item" data-type="image">
+            <img src="ADELPHOBIA_screenshot_2.png" alt="ADELPHOBIA Preview 2" />
+          </div>
+          <div class="preview-item" data-type="video">
+            <video src="Preview of ADELPHOBIA.mp4" muted preload="metadata"></video>
+            <div class="play-icon">▶</div>
+          </div>
+        </div>
+      </div>
+
     </section>
 
-    <!-- SUPPORT -->
     <section id="support" class="page-section">
       <h2>Support Me</h2>
       <div class="support-content">
@@ -135,7 +154,6 @@
               </p>
               <div class="donate-buttons">
                 <a href="https://silversky-studio.itch.io/bajo-las-rosas" class="btn" target="_blank" rel="noopener">Itch.io</a>
-                <a href="https://ko-fi.com/silverskystudio" class="btn" target="_blank" rel="noopener">Ko-fi</a>
               </div>
             </div>
             <div class="support-card">
@@ -145,7 +163,14 @@
                 Become a member and support development month by month. Get exclusive content, early access to games, and other special perks.
               </p>
               <a href="https://patreon.com/SilverSky_Studio" target="_blank" class="btn">Patreon</a>
-              <a href="https://ko-fi.com/silverskystudio" target="_blank" class="btn">Ko-fi</a>
+            </div>
+            <div class="support-card">
+              <div class="support-icon">🛍️</div>
+              <h4>Merch</h4>
+              <p>
+                Get your official merch from the official store.
+              </p>
+              <a href="https://acggoods.com/store/silversky-studio?from=share" target="_blank" class="btn">Official Store</a>
             </div>
             <div class="support-card">
               <div class="support-icon">📢</div>
@@ -158,7 +183,7 @@
               <div class="support-icon">🎨</div>
               <h4>Creations</h4>
               <p>
-                Any creations you make—fanart, videos, or other expressions—are a huge source of motivation. Seeing how players enjoy and reinterpret the games provides invaluable support and gives all the effort meaning.
+                Any creations you make, fanart, videos, or other expressions are a huge source of motivation. Seeing how players enjoy and reinterpret the games provides invaluable support and gives all the effort meaning.
               </p>
             </div>
           </div>
@@ -176,7 +201,6 @@
       </div>
     </section>
 
-    <!-- CONTACT -->
     <section id="contact" class="page-section">
       <h2>Contact & Socials</h2>
       <div class="contact-content">
@@ -185,11 +209,12 @@
           <p>You can also follow me and stay updated on my projects through my social media:</p>
         </div>
         <div class="contact-list">
-          <a href="mailto:silverskystudio.contact@gmail.com " target="_blank"><span>📧</span>silverskystudio.contact@gmail.com</a>
+          <a href="mailto:silverskystudio.contact@gmail.com" target="_blank"><span>📧</span>silverskystudio.contact@gmail.com</a>
           <a href="https://silversky-studio.itch.io" target="_blank"><span>🎮</span> Itch.io</a>
           <a href="https://www.tiktok.com/@silversky_studio" target="_blank"><span>🎵</span> TikTok</a>
           <a href="https://youtube.com/@silversky-studio" target="_blank"><span>🔴</span> YouTube</a>
           <a href="https://silversky-studio.tumblr.com/?source=share" target="_blank"><span>🌸</span> Tumblr</a>
+          <a href="https://acggoods.com/store/silversky-studio?from=share" target="_blank"><span>🛍️</span> Official Merch</a>
         </div>
       </div>
     </section>
@@ -198,6 +223,15 @@
   <footer>
     <p>© 2025 SilverSky Studio. All Rights Reserved.</p>
   </footer>
+
+  <!-- Modal Lightbox Universal (Imágenes y Video) -->
+  <div id="lightbox" class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <div class="lightbox-body">
+      <img class="lightbox-content" id="lightbox-img" alt="Preview Image" style="display: none;" />
+      <video class="lightbox-content" id="lightbox-video" controls style="display: none;"></video>
+    </div>
+  </div>
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
@@ -220,8 +254,11 @@
       const sections = document.querySelectorAll('.page-section');
 
       const showPage = (pageId) => {
+        const targetSection = document.getElementById(pageId);
+        if (!targetSection) return;
+
         sections.forEach(s => s.classList.remove('active'));
-        document.getElementById(pageId).classList.add('active');
+        targetSection.classList.add('active');
         navLinks.forEach(l => {
           l.classList.toggle('active', l.getAttribute('data-page') === pageId);
         });
@@ -230,6 +267,10 @@
 
       navLinks.forEach(link => {
         link.addEventListener('click', e => {
+          if (link.classList.contains('external-link')) {
+            return;
+          }
+          
           e.preventDefault();
           showPage(link.getAttribute('data-page'));
         });
@@ -257,6 +298,53 @@
         el.style.transform = 'translateY(20px)';
         el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
         observer.observe(el);
+      });
+
+      // 🔍 Lightbox para Imágenes y Video
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      const lightboxVideo = document.getElementById('lightbox-video');
+      const lightboxClose = document.querySelector('.lightbox-close');
+
+      document.querySelectorAll('.preview-item').forEach(item => {
+        item.addEventListener('click', () => {
+          const isVideo = item.getAttribute('data-type') === 'video';
+
+          if (isVideo) {
+            const videoSource = item.querySelector('video').src;
+            lightboxVideo.src = videoSource;
+            lightboxVideo.style.display = 'block';
+            lightboxImg.style.display = 'none';
+            lightboxVideo.play();
+          } else {
+            const imgSource = item.querySelector('img').src;
+            lightboxImg.src = imgSource;
+            lightboxImg.style.display = 'block';
+            lightboxVideo.style.display = 'none';
+          }
+
+          lightbox.classList.add('active');
+        });
+      });
+
+      const closeLightbox = () => {
+        lightbox.classList.remove('active');
+        lightboxVideo.pause();
+        lightboxVideo.src = '';
+      };
+
+      lightboxClose.addEventListener('click', closeLightbox);
+
+      lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox || e.target.classList.contains('lightbox-body')) {
+          closeLightbox();
+        }
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+          closeLightbox();
+        }
       });
     });
   </script>
